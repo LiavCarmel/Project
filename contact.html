@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+        crossorigin="anonymous"
+      />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="CSS/mystyle.css">
+        <style type="text/css">
+         @font-face {
+  font-family: "Bebas Neue";
+  src: url("BebasNeue-Regular.ttf");
+  }
+
+        </style>
+
+    </head>
+    <body><header>
+
+        <div class="logo">
+            <div class="triangle" id="t1">
+                <div class="empty"></div>
+            </div>
+            <div class="triangle" id="t2">
+                <div class="empty"></div>
+            </div>
+            <div class="triangle" id="t3">
+                <div class="empty"></div>
+            </div>
+            <div class="triangle" id="t4">
+                <div class="empty"></div>
+            </div>
+            <span class="rina" id="rina"> 
+                RINA
+                </span>
+                <div class="fine"> 
+                    F i n e A r t + G a l l e r y
+                </div>
+            </div>
+            <div class="newnav"> 
+                <div class="buttons"> 
+                <a href="home2.html"><div class="button"  id="button1">
+                    <span>Home</span>
+                 
+                </div></a>
+                 <a href="paintings.html"> <div class="button"   id="button2">
+                    <span>Paintings</span>
+                </div>
+                </a>
+                <a href="About.html">
+                <div class="button" id="button3">
+                    <span>About </span>
+                </div>
+                </a>
+                <a href="#">
+                <div id="now">
+                   <span> Contact</span>
+                </div>
+                </a>
+                </div>
+              </div>
+            </header>
+            <div   class="form">
+                <form id="form" name="myform" action="MessageSent.html" method="post" onsubmit=" return validate();">
+                    <p class="questions">
+                        For questions, requests and any more details send us a message
+                    </p>
+                 <span id="error" class="error"></span>
+                    <input type="text" id="myname" placeholder="Name" class="name" onkeypress="clearMsg('error')">
+                    <input type="text" id="phone" placeholder="Contact Number" class="number" onkeypress="clearMsg('error')"><br>
+                    <span id="email_error" class="error"></span>
+                    <input type="text" id="email" placeholder="Email" class="mail" onkeypress="clearMsg('email_error')">
+                    <textarea cols="28" rows="13" >Your Message</textarea>
+                    <input type="submit" value="Send" id="send">
+                </form>
+            </div>
+            <div class="foot">
+                <span class="email">
+                  <i class="fas fa-envelope"></i>
+                  carmelrina1@gmail.com
+                </span>
+                <span class="phone"><i class="fas fa-phone-alt"></i>
+                    +972-54-6632334         </span><span>
+                        <a href="https://www.instagram.com/rinacarmel1/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </span>
+            </div>
+            <script src="JS/scripts.js"></script>
+
+    </body>
+</html>

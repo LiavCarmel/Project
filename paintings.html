@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery/jquery-3.6.0.min.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+        crossorigin="anonymous"
+      />
+      <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="CSS/mystyle.css">
+        <style type="text/css">
+           @font-face {
+  font-family: "Bebas Neue";
+  src: url("BebasNeue-Regular.ttf");
+  }
+  @font-face {
+  font-family: "Poiret One";
+  src: url("PoiretOne-Regular.ttf") ;
+  
+   }
+        </style>
+
+    </head>
+    <body>
+       
+         <header>
+
+        <div class="logo">
+            <div class="triangle" id="t1">
+                <div class="empty"></div>
+            </div>
+            <div class="triangle" id="t2">
+                <div class="empty"></div>
+            </div>
+            <div class="triangle" id="t3">
+                <div class="empty"></div>
+            </div>
+            <div class="triangle" id="t4">
+                <div class="empty"></div>
+            </div>
+            <span class="rina" id="rina"> 
+                RINA
+                </span>
+                <div class="fine"> 
+                    F i n e A r t + G a l l e r y
+                </div>
+            </div>
+            <div class="newnav"> 
+                <div class="buttons"> 
+                <a href="home2.html"><div class="button"  id="button1">
+                    <span>Home</span>
+                 
+                </div></a>
+              <a href="#"> <div  id="now">
+                    <span>Paintings</span>
+                </div>
+                </a>
+                <a href="About.html">
+                <div class="button" id="button3">
+                    <span>About </span>
+                </div>
+                </a>
+                <a href="contact.html">
+                <div class="button" id="button4">
+                   <span> Contact</span>
+                </div>
+                </a>
+                </div>
+              </div>
+            </header> 
+            <a href="contact.html" >
+                <div class="special" id="special" >
+
+                    <p>
+                    Painting on request
+                    <br>
+                    <i class="fas fa-hand-sparkles"></i>
+                    </p>    
+                </div>
+            </a>
+            <div class="options">
+                <div class="paintings" id="paintings1" onclick="choose(); abstract();">
+                  <p>  Abstract</p>
+                    <img src="Imgs/abstracts/1.JPG">
+                    
+                </div>
+            <a>
+                <div class="paintings" id="paintings2" onclick="choose(); figurative();">
+                  <p>Figurative</p>
+                    <img src="Imgs/Figurative/1.jpg">
+                </div>
+            </a>
+            <a>
+                <div class="paintings" id="paintings3" onclick="choose(); mix();">
+                  <p>  Figurative+Abstract</p>
+                    <img src="Imgs/Figurative+Abstract/1.JPG">
+                </div>
+            </a>
+            <a>
+                <div class="paintings" id="paintings4" onclick="choose(); kids();">
+                  <p>  Children</p>
+                    <img src="Imgs/Children/1.jpg">
+                </div>
+            </a>
+            </div>
+            <div class="display" id="display">
+                <a class="prev1" onclick="prevpic()">&#10094;
+                </a>
+                <a class="next1" onclick="nextpic()">&#10095;
+                </a>
+                <img id="displaypic" src="Imgs/1.JPG" alt="" width="300" height="300" > 
+                <button class="back" id="back" onclick="back()"> <i class="fas fa-chevron-left"></i> Back
+                </button>
+            </div>
+            <div class="foot">
+                <span class="email">
+                  <i class="fas fa-envelope"></i>
+                  carmelrina1@gmail.com
+                </span>
+                <span class="phone"><i class="fas fa-phone-alt"></i>
+                    +972-54-6632334         </span><span>
+                        <a href="https://www.instagram.com/rinacarmel1/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </span>
+      
+            </div>
+            <script src="JS/scripts.js"></script>           
+    </body>
+</html>
